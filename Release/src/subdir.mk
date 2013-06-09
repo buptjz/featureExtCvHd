@@ -4,13 +4,37 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../src/OpencvTest.cpp 
+../src/Candy.cpp \
+../src/ColorHistogram.cpp \
+../src/ConvexPointCollect.cpp \
+../src/HoughLine.cpp \
+../src/TextureCollect.cpp \
+../src/avgCal.cpp \
+../src/main.cpp \
+../src/matOperate.cpp \
+../src/rgb2HSV.cpp 
 
 OBJS += \
-./src/OpencvTest.o 
+./src/Candy.o \
+./src/ColorHistogram.o \
+./src/ConvexPointCollect.o \
+./src/HoughLine.o \
+./src/TextureCollect.o \
+./src/avgCal.o \
+./src/main.o \
+./src/matOperate.o \
+./src/rgb2HSV.o 
 
 CPP_DEPS += \
-./src/OpencvTest.d 
+./src/Candy.d \
+./src/ColorHistogram.d \
+./src/ConvexPointCollect.d \
+./src/HoughLine.d \
+./src/TextureCollect.d \
+./src/avgCal.d \
+./src/main.d \
+./src/matOperate.d \
+./src/rgb2HSV.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

@@ -13,4 +13,9 @@ void doColorHistogram( int argc, char** argv );
 int doConvexPointCollect( int argc, char** argv );
 int doHoughLine( int argc, char** argv );
 int doTextureCollect(int argc, char* argv[]);
+
+void avgCal( int argc, char** argv );
+double colorCal( int argc, char** argv );
+
+
 #endif /* CLASSESFOLDER_H_ */

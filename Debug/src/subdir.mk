@@ -9,7 +9,10 @@ CPP_SRCS += \
 ../src/ConvexPointCollect.cpp \
 ../src/HoughLine.cpp \
 ../src/TextureCollect.cpp \
-../src/main.cpp 
+../src/avgCal.cpp \
+../src/main.cpp \
+../src/matOperate.cpp \
+../src/rgb2HSV.cpp 
 
 OBJS += \
 ./src/Candy.o \
@@ -17,7 +20,10 @@ OBJS += \
 ./src/ConvexPointCollect.o \
 ./src/HoughLine.o \
 ./src/TextureCollect.o \
-./src/main.o 
+./src/avgCal.o \
+./src/main.o \
+./src/matOperate.o \
+./src/rgb2HSV.o 
 
 CPP_DEPS += \
 ./src/Candy.d \
@@ -25,7 +31,10 @@ CPP_DEPS += \
 ./src/ConvexPointCollect.d \
 ./src/HoughLine.d \
 ./src/TextureCollect.d \
-./src/main.d 
+./src/avgCal.d \
+./src/main.d \
+./src/matOperate.d \
+./src/rgb2HSV.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
